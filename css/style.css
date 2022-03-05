@@ -1,3 +1,26 @@
-.main{
-	width: 100%;
+*{
+	font-family: montserrat;
+}
+.usd_star::before{
+	content:url('../images/star.png');
+}
+.menu_links a:hover{
+	color: #F5B703 !important;
+}
+.row_image{
+	border-radius: 15px;
+}
+.see_more a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	line-height: 120%;
+	font-size: 16px;
+	padding: 10px 10px;
+	background-color: #F5B703;
+	border-radius: 25px;
+}
+.see_more a:hover{
+	background-color: #E3E3E3;
 }
