@@ -72,3 +72,30 @@
 .copyright{
 	font-size: 12px;
 }
+.row_main{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 15px;
+}
+.map_video a{
+	position: relative;
+	padding-right: 20px;
+	margin-right: 25px;
+	text-decoration: none;
+	color: black;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+.map_video a:after{
+	content:" ";
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+}
