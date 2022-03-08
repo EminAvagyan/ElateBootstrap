@@ -99,3 +99,39 @@
 	height: 10px;
 	transform: rotate(45deg);
 }
+.a_before{
+	margin-top: 10px;
+	background-color: #F5B703;
+	border: 1px solid #F5B703;
+	color: black;
+	font-weight: bold;
+	border-radius: 32px;
+	position: relative;
+	line-height: 3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 55px;
+	padding-right: 15px;
+	width: 170px;
+	cursor: pointer;
+}
+.a_before::before{
+	content:" ";
+	background-image: url('../images/call.png');
+	background-size: cover;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	width: 20px;
+	height: 20px;
+}
+.icons a{
+	text-align: center;
+	text-decoration: none;
+	color: #626777;
+	line-height: 16px;
+	font-size: 14px;
+}
+.icons a:hover{
+	color: #F5B703;
+}
