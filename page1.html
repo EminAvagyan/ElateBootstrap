@@ -41,12 +41,475 @@
       </section>
     </div>
   </header>
-  <div class="container p-0">
-
+  <div class="container mt-5">
+    <div class="row justify-content-between">
+      <div class="col-10">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 label_div">
+            <label for="renting">Renting</label>
+            <div class="box-con">
+              <select id="rentingl">
+                <option value="" disabled selected hidden>Select</option>
+                <option value="daily">Daily</option>
+                <option value="monthly" required>Monthly</option>
+                <option value="yearly">Yeraly</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 label_div">
+            <label for="city1">City</label>
+            <div class="box-con">
+              <select id="cityl">
+                <option value="" disabled selected hidden>Select</option>
+                <option value="vanadzor">Vanadzor</option>
+                <option value="gyumri">Gyumri</option>
+                <option value="yerevan">Erevan</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 label_div">
+            <label for="regionl">Region</label>
+            <div class="box-con">
+              <select id="regionl">
+                <option value="" disabled selected hidden>Select</option>
+                <option value="lori">Lori</option>
+                <option value="shirak">Shirak</option>
+                <option value="yerevan">Erevan</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 label_div">
+            <label for="rooms">Rooms</label>
+            <div class="box-con">
+              <select id="rooms">
+                <option value="" disabled selected hidden>Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 label_div">
+            <label for="renting">Price</label>
+            <div class="box-con">
+              <input type="number" placeholder="$100" step="5" min="0" max="1000000">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 label_div max">
+            <div class="box-con max">
+              <input type="number" placeholder="$100" step="5" min="10" max="1000000" class="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 label_div">
+            <label for="regionl">Code</label>
+            <div class="box-con">
+              <input type="text" placeholder="RCEA3248">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 label_div">
+            <label for="rooms">Layout</label>
+            <div class="box-con">
+              <select id="rooms">
+                <option value="" disabled selected hidden>Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2 mt-3">
+        <div class="label_div" style="margin-top:20px">
+          <input type="button" class="button" value="SEARCH">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row p-3 row_main row align-items-center mt-5 mb-5 row_text">
+        <div class="col-lg-6 col-sm-12">
+          <img src="images/bayron_content.png" class="img-fluid rounded">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="row">
+            <div class="col-12 d-flex flex-row align-items-end mb-2">
+              <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Features</b></li>
+                    <li>3 Bedrooms</li>
+                    <li>5/3 Floor</li>
+                    <li>200 sqm</li>
+                    <li>New Building</li>
+                    </ulc>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Monthly</b></li>
+                    <li style="color:green">29.900 USD</li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Code:</b> RCEA3248</li>
+                    <li><b>Updated:</b> 14.06.2021</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-end">
+            <div class="row_text2 col-3 offset-9">
+              <!-- Button trigger modal -->
+              <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                Rent
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        Confirm
+                      </label>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row p-3 row_main row align-items-center mt-5 mb-5 row_text">
+        <div class="col-lg-6 col-sm-12">
+          <img src="images/bayron_content.png" class="img-fluid rounded">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="row">
+            <div class="col-12 d-flex flex-row align-items-end mb-2">
+              <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Features</b></li>
+                    <li>3 Bedrooms</li>
+                    <li>5/3 Floor</li>
+                    <li>200 sqm</li>
+                    <li>New Building</li>
+                    </ulc>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Monthly</b></li>
+                    <li style="color:green">29.900 USD</li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Code:</b> RCEA3248</li>
+                    <li><b>Updated:</b> 14.06.2021</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-end">
+            <div class="row_text2 col-3 offset-9">
+              <!-- Button trigger modal -->
+              <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                Rent
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        Confirm
+                      </label>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row p-3 row_main row align-items-center mt-5 mb-5 row_text">
+        <div class="col-lg-6 col-sm-12">
+          <img src="images/bayron_content.png" class="img-fluid rounded">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="row">
+            <div class="col-12 d-flex flex-row align-items-end mb-2">
+              <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Features</b></li>
+                    <li>3 Bedrooms</li>
+                    <li>5/3 Floor</li>
+                    <li>200 sqm</li>
+                    <li>New Building</li>
+                    </ulc>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Monthly</b></li>
+                    <li style="color:green">29.900 USD</li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Code:</b> RCEA3248</li>
+                    <li><b>Updated:</b> 14.06.2021</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-end">
+            <div class="row_text2 col-3 offset-9">
+              <!-- Button trigger modal -->
+              <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                Rent
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        Confirm
+                      </label>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row p-3 row_main row align-items-center mt-5 mb-5 row_text">
+        <div class="col-lg-6 col-sm-12">
+          <img src="images/bayron_content.png" class="img-fluid rounded">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="row">
+            <div class="col-12 d-flex flex-row align-items-end mb-2">
+              <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Features</b></li>
+                    <li>3 Bedrooms</li>
+                    <li>5/3 Floor</li>
+                    <li>200 sqm</li>
+                    <li>New Building</li>
+                    </ulc>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Monthly</b></li>
+                    <li style="color:green">29.900 USD</li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Code:</b> RCEA3248</li>
+                    <li><b>Updated:</b> 14.06.2021</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-end">
+            <div class="row_text2 col-3 offset-9">
+              <!-- Button trigger modal -->
+              <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                Rent
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        Confirm
+                      </label>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row p-3 row_main row align-items-center mt-5 mb-5 row_text">
+        <div class="col-lg-6 col-sm-12">
+          <img src="images/bayron_content.png" class="img-fluid rounded">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="row">
+            <div class="col-12 d-flex flex-row align-items-end mb-2">
+              <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Features</b></li>
+                    <li>3 Bedrooms</li>
+                    <li>5/3 Floor</li>
+                    <li>200 sqm</li>
+                    <li>New Building</li>
+                    </ulc>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Monthly</b></li>
+                    <li style="color:green">29.900 USD</li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="list-unstyled">
+                    <li><b>Code:</b> RCEA3248</li>
+                    <li><b>Updated:</b> 14.06.2021</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-end">
+            <div class="row_text2 col-3 offset-9">
+              <!-- Button trigger modal -->
+              <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                Rent
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        Confirm
+                      </label>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <footer>
     <div class="container-fluid bg-light">
-      <section class="container p-0">
+      <section class="container pt-5">
         <div class="row text-center text-md-left pl-0">
           <div class="col-12"><img src="images/logo1.png" class="footer_logo"></div>
           <div class="col-12 footer_logo_text text_color">Elate Real Esatate</div>
@@ -87,7 +550,7 @@
               <div class="col-1 p-0"><a href="#" class="fa fa-pinterest"></a></div>
             </div>
             <div class="copyright text_color offset-md-6">All rights reserved &copy; 2021 Elate Real Estate
-						</div>
+            </div>
           </div>
         </div>
       </section>

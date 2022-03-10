@@ -75,6 +75,7 @@
 .row_main{
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 	border-radius: 15px;
+	box-sizing: border-box;
 }
 .map_video a{
 	position: relative;
@@ -136,4 +137,70 @@
 }
 .icons a:hover{
 	color: #F5B703;
+}
+.button{
+	background-color: #ffd469;
+	border: none;
+	border-radius: 25px;
+	font-size: 14px;
+	padding: 10px;
+	width: 170px;
+	color: black;
+}
+.button:hover{
+	background-color: #E3E3E3;
+}
+.label_div{
+	cursor: pointer;
+}
+.label_div select{
+	border: 1px solid grey;
+	cursor: text;
+	width: 150px;
+	border: none;
+	outline: 0;
+	font-family: montserrat;
+	font-size: 14px;
+	color: grey;
+	cursor: pointer;
+}
+.label_div option, input{
+	font-family: montserrat;
+	font-size: 14px;
+	color: grey;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.label_div input{
+	width: 145px;
+	appearance: none;
+}
+.box-con{
+	box-sizing: border-box;
+	border: 1px solid grey;
+	padding: 10px;
+	width: 170px;
+	border-radius: 25px;
+	margin-top: 3px;
+}
+.max{
+	margin-top: 17px;
+}
+.row_text2{
+	background-color: #F5B703;
+  	border: none;
+ 	 color: black;
+ 	 padding: 5px;
+		text-align: center;
+	  text-decoration: none;
+ 	 display: inline-block;
+ 	 font-family: montserrat;
+	font-size: 16px;
+	color: black;
+ 	 border-radius: 25px;
+}
+.row_text2:hover{
+	background-color: white;
+	cursor: pointer;
 }
