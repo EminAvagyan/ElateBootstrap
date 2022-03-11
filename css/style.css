@@ -189,9 +189,10 @@
 }
 .row_text2{
 	background-color: #F5B703;
-  	border: none;
+  	border: 1px solid #F5B703;;
  	 color: black;
- 	 padding: 5px;
+ 	 line-height: 2.5;
+	  padding: 0 30px;
 	text-align: center;
 	text-decoration: none;
  	 display: inline-block;
@@ -203,4 +204,18 @@
 .row_text2:hover{
 	background-color: white;
 	cursor: pointer;
+	border: 1px solid #F5B703;
+}
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+	text-align: center;
+}
+@media(max-width: 768px) {
+  .modal-dialog {
+    min-height: calc(100vh - 20px);
+  }
 }
