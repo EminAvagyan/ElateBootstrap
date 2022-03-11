@@ -201,6 +201,26 @@
 	color: black;
  	 border-radius: 25px;
 }
+.span_m:hover{
+	border-bottom: 4px solid #F5B703;
+}
+.span_nom:hover{
+	border-bottom: 4px solid #F5B703;
+}
+.span_m1 select{
+	margin-left: 5px;
+	border: none;
+	outline: none;
+	background-color: none;
+	padding: 0;
+	font-family: montserrat;
+	font-size: 16px;	
+	color: grey;
+}
+.span_m1 select:hover{
+	box-shadow: 0 0px 16px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+	border-radius: 10px;
+}
 .row_text2:hover{
 	background-color: white;
 	cursor: pointer;
