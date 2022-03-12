@@ -77,20 +77,21 @@
 	border-radius: 15px;
 	box-sizing: border-box;
 }
+
 .map_video a{
 	position: relative;
-	padding-right: 20px;
-	margin-right: 25px;
 	text-decoration: none;
+	margin-right: 25px;
 	color: black;
 	display: flex;
 	align-items: center;
 	font-size: 16px;
 }
-.map_video a:after{
+.map_video a::after{
 	content:" ";
 	position: absolute;
 	right: 0;
+	top: 5px;
 	display: inline-block;
 	border: solid black;
 	border-width: 0 3px 3px 0;
@@ -226,6 +227,15 @@
 	cursor: pointer;
 	border: 1px solid #F5B703;
 }
+.span_nom1{
+	border-bottom: 4px solid #F5B703;
+	padding-bottom: 5px;
+}
+.span_nom:hover{
+	border-bottom: 4px solid #F5B703;
+	padding-bottom: 5px;
+}
+
 .modal-dialog {
     min-height: calc(100vh - 60px);
     display: flex;
