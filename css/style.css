@@ -244,7 +244,7 @@
     overflow: auto;
 	text-align: center;
 }
-@media(max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .modal-dialog {
     min-height: calc(100vh - 20px);
   }
