@@ -56,24 +56,28 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-3">
-        <div class="row justify-content-md-end justify-content-center mt-3 mt-md-0">
-          <div class="col-md-4 col-6 text-right">
-            <span class="span_nom1">For rent</span>
+      <div class="col-12 col-md-4">
+        <div class="row">
+          <div class="col-12 col-md-10">
+            <div class="row justify-content-md-end justify-content-center mt-3 mt-md-0">
+              <div class=" col-6 text-md-right text-center">
+                <span class="span_nom1">For rent</span>
+              </div>
+              <div class=" col-6 text-md-right text-center">
+                <span class="span_nom">For sale</span>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4 col-6 text-right">
-            <span class="span_nom">For sale</span>
+          <div class="col-md-2 pl-0 mt-4 mt-md-0">
+            <span class="span_m1 col-1">
+              <select>
+                <option value="usd" required>USD</option>
+                <option value="amd">AMD</option>
+                <option value="rub">RUB</option>
+              </select>
+            </span>
           </div>
         </div>
-      </div>
-      <div class="col-md-1 pl-0 mt-4 mt-md-0">
-        <span class="span_m1 col-1">
-          <select>
-            <option value="usd" required>USD</option>
-            <option value="amd">AMD</option>
-            <option value="rub">RUB</option>
-          </select>
-        </span>
       </div>
     </div>
     <div class="row justify-content-between">
@@ -169,69 +173,70 @@
       <div class="col-12">
         <div class="row_main">
           <div class="row p-3">
-          <div class="col-lg-6 col-sm-12">
-            <img src="images/bayron_content.png" class="img-fluid rounded">
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <div class="row">
-              <div class="col-12 d-flex flex-row align-items-end mb-2">
-                <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-              </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="images/bayron_content.png" class="img-fluid rounded">
             </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Features</b></li>
-                      <li>3 Bedrooms</li>
-                      <li>5/3 Floor</li>
-                      <li>200 sqm</li>
-                      <li>New Building</li>
-                      </ulc>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Monthly</b></li>
-                      <li style="color:green">29.900 USD</li>
-                    </ul>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Code:</b> RCEA3248</li>
-                      <li><b>Updated:</b> 14.06.2021</li>
-                    </ul>
+            <div class="col-lg-6 col-sm-12">
+              <div class="row">
+                <div class="col-12 d-flex flex-row align-items-end mb-2">
+                  <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Features</b></li>
+                        <li>3 Bedrooms</li>
+                        <li>5/3 Floor</li>
+                        <li>200 sqm</li>
+                        <li>New Building</li>
+                        </ulc>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Monthly</b></li>
+                        <li style="color:green">29.900 USD</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Code:</b> RCEA3248</li>
+                        <li><b>Updated:</b> 14.06.2021</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row text-end">
-              <div class="col-3 offset-9">
-                <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
-                  Rent
-                </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Confirm
-                        </label>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+              <div class="row text-end">
+                <div class="col-3 offset-9">
+                  <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                    Rent
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Confirm
+                          </label>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -239,7 +244,6 @@
               </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
@@ -247,69 +251,70 @@
       <div class="col-12">
         <div class="row_main">
           <div class="row p-3">
-          <div class="col-lg-6 col-sm-12">
-            <img src="images/bayron_content.png" class="img-fluid rounded">
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <div class="row">
-              <div class="col-12 d-flex flex-row align-items-end mb-2">
-                <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-              </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="images/bayron_content.png" class="img-fluid rounded">
             </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Features</b></li>
-                      <li>3 Bedrooms</li>
-                      <li>5/3 Floor</li>
-                      <li>200 sqm</li>
-                      <li>New Building</li>
-                      </ulc>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Monthly</b></li>
-                      <li style="color:green">29.900 USD</li>
-                    </ul>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Code:</b> RCEA3248</li>
-                      <li><b>Updated:</b> 14.06.2021</li>
-                    </ul>
+            <div class="col-lg-6 col-sm-12">
+              <div class="row">
+                <div class="col-12 d-flex flex-row align-items-end mb-2">
+                  <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Features</b></li>
+                        <li>3 Bedrooms</li>
+                        <li>5/3 Floor</li>
+                        <li>200 sqm</li>
+                        <li>New Building</li>
+                        </ulc>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Monthly</b></li>
+                        <li style="color:green">29.900 USD</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Code:</b> RCEA3248</li>
+                        <li><b>Updated:</b> 14.06.2021</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row text-end">
-              <div class="col-3 offset-9">
-                <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
-                  Rent
-                </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Confirm
-                        </label>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+              <div class="row text-end">
+                <div class="col-3 offset-9">
+                  <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                    Rent
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Confirm
+                          </label>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -317,7 +322,6 @@
               </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
@@ -325,69 +329,70 @@
       <div class="col-12">
         <div class="row_main">
           <div class="row p-3">
-          <div class="col-lg-6 col-sm-12">
-            <img src="images/bayron_content.png" class="img-fluid rounded">
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <div class="row">
-              <div class="col-12 d-flex flex-row align-items-end mb-2">
-                <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-              </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="images/bayron_content.png" class="img-fluid rounded">
             </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Features</b></li>
-                      <li>3 Bedrooms</li>
-                      <li>5/3 Floor</li>
-                      <li>200 sqm</li>
-                      <li>New Building</li>
-                      </ulc>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Monthly</b></li>
-                      <li style="color:green">29.900 USD</li>
-                    </ul>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Code:</b> RCEA3248</li>
-                      <li><b>Updated:</b> 14.06.2021</li>
-                    </ul>
+            <div class="col-lg-6 col-sm-12">
+              <div class="row">
+                <div class="col-12 d-flex flex-row align-items-end mb-2">
+                  <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Features</b></li>
+                        <li>3 Bedrooms</li>
+                        <li>5/3 Floor</li>
+                        <li>200 sqm</li>
+                        <li>New Building</li>
+                        </ulc>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Monthly</b></li>
+                        <li style="color:green">29.900 USD</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Code:</b> RCEA3248</li>
+                        <li><b>Updated:</b> 14.06.2021</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row text-end">
-              <div class="col-3 offset-9">
-                <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
-                  Rent
-                </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Confirm
-                        </label>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+              <div class="row text-end">
+                <div class="col-3 offset-9">
+                  <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                    Rent
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Confirm
+                          </label>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -395,7 +400,6 @@
               </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
@@ -403,69 +407,70 @@
       <div class="col-12">
         <div class="row_main">
           <div class="row p-3">
-          <div class="col-lg-6 col-sm-12">
-            <img src="images/bayron_content.png" class="img-fluid rounded">
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <div class="row">
-              <div class="col-12 d-flex flex-row align-items-end mb-2">
-                <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-              </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="images/bayron_content.png" class="img-fluid rounded">
             </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Features</b></li>
-                      <li>3 Bedrooms</li>
-                      <li>5/3 Floor</li>
-                      <li>200 sqm</li>
-                      <li>New Building</li>
-                      </ulc>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Monthly</b></li>
-                      <li style="color:green">29.900 USD</li>
-                    </ul>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Code:</b> RCEA3248</li>
-                      <li><b>Updated:</b> 14.06.2021</li>
-                    </ul>
+            <div class="col-lg-6 col-sm-12">
+              <div class="row">
+                <div class="col-12 d-flex flex-row align-items-end mb-2">
+                  <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Features</b></li>
+                        <li>3 Bedrooms</li>
+                        <li>5/3 Floor</li>
+                        <li>200 sqm</li>
+                        <li>New Building</li>
+                        </ulc>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Monthly</b></li>
+                        <li style="color:green">29.900 USD</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Code:</b> RCEA3248</li>
+                        <li><b>Updated:</b> 14.06.2021</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row text-end">
-              <div class="col-3 offset-9">
-                <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
-                  Rent
-                </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Confirm
-                        </label>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+              <div class="row text-end">
+                <div class="col-3 offset-9">
+                  <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                    Rent
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Confirm
+                          </label>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -473,7 +478,6 @@
               </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
@@ -481,69 +485,70 @@
       <div class="col-12">
         <div class="row_main">
           <div class="row p-3">
-          <div class="col-lg-6 col-sm-12">
-            <img src="images/bayron_content.png" class="img-fluid rounded">
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <div class="row">
-              <div class="col-12 d-flex flex-row align-items-end mb-2">
-                <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-              </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="images/bayron_content.png" class="img-fluid rounded">
             </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Features</b></li>
-                      <li>3 Bedrooms</li>
-                      <li>5/3 Floor</li>
-                      <li>200 sqm</li>
-                      <li>New Building</li>
-                      </ulc>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Monthly</b></li>
-                      <li style="color:green">29.900 USD</li>
-                    </ul>
-                  </div>
-                  <div class="col-4">
-                    <ul class="list-unstyled">
-                      <li><b>Code:</b> RCEA3248</li>
-                      <li><b>Updated:</b> 14.06.2021</li>
-                    </ul>
+            <div class="col-lg-6 col-sm-12">
+              <div class="row">
+                <div class="col-12 d-flex flex-row align-items-end mb-2">
+                  <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Features</b></li>
+                        <li>3 Bedrooms</li>
+                        <li>5/3 Floor</li>
+                        <li>200 sqm</li>
+                        <li>New Building</li>
+                        </ulc>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Monthly</b></li>
+                        <li style="color:green">29.900 USD</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled">
+                        <li><b>Code:</b> RCEA3248</li>
+                        <li><b>Updated:</b> 14.06.2021</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row text-end">
-              <div class="col-3 offset-9">
-                <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
-                  Rent
-                </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Confirm
-                        </label>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+              <div class="row text-end">
+                <div class="col-3 offset-9">
+                  <button type="button" class="row_text2" data-toggle="modal" data-target="#exampleModal">
+                    Rent
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Bayron</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Yoy choose <h4 class="m-0">Bayron</h4> &nbspYerevan/Center
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Confirm
+                          </label>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -552,9 +557,9 @@
             </div>
           </div>
         </div>
-        </div>
       </div>
     </div>
+  </div>
   </div>
   <footer>
     <div class="container-fluid bg-light">
@@ -616,4 +621,5 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
