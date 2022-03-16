@@ -94,7 +94,7 @@
 	top: 5px;
 	display: inline-block;
 	border: solid black;
-	border-width: 0 3px 3px 0;
+	border-width: 0 2px 2px 0;
 	display: inline-block;
 	padding: 3px;
 	width: 10px;
@@ -116,7 +116,7 @@
 	cursor: pointer;
 	display: inline-block;
 }
-.a_before::before{
+.a_before::after{
 	content:" ";
 	background-image: url('../images/call.png');
 	background-size: cover;
