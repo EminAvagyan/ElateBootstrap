@@ -1,5 +1,6 @@
 *{
 	font-family: montserrat;
+	box-sizing: border;
 }
 .usd_star::before{
 	content:url('../images/star.png');
@@ -87,7 +88,21 @@
 	align-items: center;
 	font-size: 16px;
 }
-.map_video div::after{
+.map_video div:nth-child(1):after{
+	content:" ";
+	position: absolute;
+	right: 0;
+	top: 5px;
+	display: inline-block;
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 3px;
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+}
+.map_video div:nth-child(2):after{
 	content:" ";
 	position: absolute;
 	right: 0;
@@ -254,7 +269,7 @@
 }
 @media only screen and (max-width: 1200px) and (min-width: 900px) {
 	body{
-		font-size: 13x;
+		font-size: 13px;
 	}
 	}
   }
