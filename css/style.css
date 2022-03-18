@@ -160,7 +160,6 @@
 	border-radius: 25px;
 	font-size: 14px;
 	padding: 10px;
-	width: 170px;
 	color: black;
 }
 .button:hover{
@@ -265,6 +264,10 @@
 @media only screen and (max-width: 768px) {
   .modal-dialog {
     min-height: calc(100vh - 20px);
+  }
+  .button{
+	  display: block;
+	  width: 100%;
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 900px) {
