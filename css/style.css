@@ -261,6 +261,9 @@
 .car-1{
 	border-radius: 10px;
 }
+.footer_icons{
+	margin-left: 20px;
+}
 @media only screen and (max-width: 768px) {
   .modal-dialog {
     min-height: calc(100vh - 20px);
